@@ -1,0 +1,124 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+.about,
+.jenis{
+  padding: 8rem ;
+  background-image: url(../Site1/images/bgabout.jpg);
+}
+
+.about h2,
+.jenis h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.about h2 span,
+.jenis h2 span{
+  color:rgb(153, 150, 150) ;
+}
+.about .row{
+  display: flex;
+}
+.about .row .about-img{
+  flex: 1 1 45rem;
+}
+.about .row .about-img img{
+  width: 100%;
+}
+
+.about .row .content{
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+.about .row .content h3{
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.about .row .content h5{
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.about .row{
+  flex-wrap: wrap;
+}
+.about .row .content p{
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  line-break: 1.6;
+  color: #fff;
+}
+/*jenis */
+.jenis p{
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 1rem;
+  margin: auto;
+  color: #fff;
+}
+
+.jenis .row {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.jenis .row p{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.jenis .row .jenis-card{
+  text-align: center;
+}
+.jenis .row .jenis-card img{
+  border-radius: 50%;
+  width: 80%;
+}
+.jenis .row .jenis-card-title{
+  text-align: center;
+  color: #fff;
+}
+/*jenis 2*/
+.jenis .row-2 {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  color: #fff;
+}
+.jenis .row-2 .jenis-card-2{
+  text-align: center;
+}
+.jenis .row-2 .jenis-card-2 img{
+  border-radius: 50%;
+  width: 80%;
+}
+.jenis .row-2 .jenis-card-title-2{
+  text-align: center;
+  color: #fff;
+}
+/*jenis 3*/
+.jenis .row-3 {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  color: #fff;
+}
+.jenis .row-3 .jenis-card-3{
+  text-align: center;
+}
+.jenis .row-3 .jenis-card-3 img{
+  border-radius: 50%;
+  width: 80%;
+}
+.jenis .row-3 .jenis-card-title-3{
+  text-align: center;
+  color: #fff;
+}

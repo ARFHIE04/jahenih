@@ -1,0 +1,87 @@
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.navbar .navbar-logo {
+  width: 5px;
+  height: 2px;
+}
+
+.navbar .navbar-nav a {
+  color: black;
+  display: inline-block;
+  margin: 0 1rem;
+}
+.navbar .navbar-nav a:hover {
+  color: grey;
+}
+.keterangan {
+  padding: 8rem;
+  background-image: url(../images/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.keterangan .konten h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #000;
+}
+.keterangan .konten h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+.keterangan .konten p {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #000;
+}
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1rem 0 2rem;
+}
+footer .sosial {
+  padding: 3rem 1rem;
+}
+
+footer .sosial a {
+  color: #fff;
+  margin: 3rem;
+}
+
+footer .sosial a:hover {
+  color: #1e1e1e;
+}
+
+footer .link {
+  margin-bottom: 1.4rem;
+}
+
+footer .link a {
+  color: #fff;
+  padding: 0.7rem 1rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+  color: white;
+}

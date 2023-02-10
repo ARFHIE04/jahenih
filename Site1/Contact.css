@@ -1,0 +1,157 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 400px;
+}
+.about,
+.jenis,
+.food {
+  padding: 5rem;
+  background-image: url(../Site1/images/mihai-lazar-8TDltliWdJY-unsplash.jpg);
+}
+
+.about h2,
+.jenis h2,
+.food {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.about h2 span,
+.jenis h2 span,
+.food h2 span {
+  color: rgb(153, 150, 150);
+}
+.about .row {
+  display: flex;
+}
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+.about .row .about-img img {
+  width: 100%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+.about .row .content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+.about .row .content h5 {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+.about .row {
+  flex-wrap: wrap;
+}
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+  line-break: 1.6;
+  color: #fff;
+}
+.food .row {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.food .row .container {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: 350;
+  height: 455px;
+  border-radius: 1em;
+  background: rgb(172, 119, 90);
+  margin: 30px;
+}
+.food .row p {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 100;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+.food .row .food-card {
+  text-align: center;
+  margin-top: 5rem;
+}
+.food .row .food-card img {
+  border-radius: 20%;
+  width: 80%;
+}
+.food .row .food-card-title {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.food .row .food-card .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem 3 rem;
+  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  background-color: rgb(131, 109, 91);
+  color: black;
+}
+.food .row .food-card .cta:hover {
+  color: #fff;
+  transition: 0.5s;
+  background-color: rgb(75, 70, 65);
+}
+@media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 99px;
+  }
+  .food .row .container {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 350;
+    height: 455px;
+    border-radius: 1em;
+    background: rgb(172, 119, 90);
+    margin: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 76px;
+  }
+  .food .row .container {
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 350;
+    height: 455px;
+    border-radius: 1em;
+    background: rgb(172, 119, 90);
+    margin: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .u-footer .u-sheet-1 {
+    min-height: 57px;
+  }
+  .food .row .container {
+    width: 175px;
+    height: 320px;
+    position: relative;
+  }
+}
+@media (max-width: 575px) {
+  .u-footer .u-sheet-1 {
+    min-height: 36px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 340px;
+  }
+}
